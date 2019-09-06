@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<FeaturePage /> should render its heading 1`] = `
+exports[`<ContactsPage /> should render its heading 1`] = `
 <div>
   <h1
     class="H1-tncdg6-0 hpAKSC"
   >
     <span>
-      Features
+      Contacts
     </span>
   </h1>
   <ul

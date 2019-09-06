@@ -79,7 +79,7 @@ export function HomePage({
           <H2>
             <FormattedMessage {...messages.trymeHeader} />
           </H2>
-          <Form onSubmit={onSubmitForm}>
+          {/* <Form onSubmit={onSubmitForm}>
             <label htmlFor="username">
               <FormattedMessage {...messages.trymeMessage} />
               <AtPrefix>
@@ -93,7 +93,7 @@ export function HomePage({
                 onChange={onChangeUsername}
               />
             </label>
-          </Form>
+          </Form> */}
           <ReposList {...reposListProps} />
         </Section>
       </div>

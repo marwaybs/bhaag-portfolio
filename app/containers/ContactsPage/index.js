@@ -1,7 +1,7 @@
 /*
- * FeaturePage
+ * ContactsPage
  *
- * List all the features
+ * List all the Contacts
  */
 import React from 'react';
 import { Helmet } from 'react-helmet';
@@ -13,14 +13,14 @@ import List from './List';
 import ListItem from './ListItem';
 import ListItemTitle from './ListItemTitle';
 
-export default function FeaturePage() {
+export default function ContactsPage() {
   return (
     <div>
       <Helmet>
-        <title>Feature Page</title>
+        <title>Contacts Page</title>
         <meta
-          name="description"
-          content="Feature page of React.js Boilerplate application"
+          name="Contacts"
+          content="Sample restful api"
         />
       </Helmet>
       <H1>
