@@ -26,6 +26,10 @@ export function* getRepos() {
   }
 }
 
+export function* signIn(email, password) {
+ const requestURL = 
+}
+
 /**
  * Root saga manages watcher lifecycle
  */

@@ -30,3 +30,11 @@ export function changeUsername(username) {
     username,
   };
 }
+
+export function signIn(username, password) {
+  return {
+    type: SIGN_IN,
+    username,
+    passwrd
+  }
+}
