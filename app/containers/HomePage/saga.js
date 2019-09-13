@@ -9,6 +9,8 @@ import { reposLoaded, repoLoadingError } from 'containers/App/actions';
 import request from 'utils/request';
 import { makeSelectUsername } from 'containers/HomePage/selectors';
 
+import SERVER_URL from '../../utils/environment';
+
 /**
  * Github repos request/response handler
  */
@@ -27,7 +29,7 @@ export function* getRepos() {
 }
 
 export function* signIn(email, password) {
- const requestURL = 
+ const requestURL = `${SERVER_URL}/registration?
 }
 
 /**

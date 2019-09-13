@@ -10,5 +10,5 @@
  */
 
 export const CHANGE_USERNAME = 'portfolio/Home/CHANGE_USERNAME';
-export const CHANGE_USERNAME = 'portfolio/Home/SIGNIN';
+export const SIGN_IN = 'portfolio/Home/SIGN_IN';
 
