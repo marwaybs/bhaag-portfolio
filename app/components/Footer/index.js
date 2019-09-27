@@ -10,7 +10,7 @@ function Footer() {
   return (
     <Wrapper>
       <section>
-        <FormattedMessage {...messages.licenseMessage} />
+        Bhaag Marway Footer
       </section>
       <section>
         <LocaleToggle />
